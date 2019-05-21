@@ -13,39 +13,26 @@ namespace com.x53olution.CallPython.Ui.Console
         static void Main(string[] args)
         {
             string myPythonApp = "main.py";
-
-            string pythonPath = "Program Files (x86)/Python/Python37-32/python.exe";
-
-            
-
-
+            string pythonPath = @"C:\Program Files (x86)\Python\Python37-32\python.exe";
 
             ProcessStartInfo pySkript = new ProcessStartInfo();
-
-            pySkript.WorkingDirectory = @"%%";
-
-            pySkript.FileName = @"";
-
-            pySkript.Arguments = string.Format("{0} {1}", pythonPath, myPythonApp);
-
+            pySkript.WorkingDirectory = @"D:\GitRepos\CallPythonByCSharp\FibonacciCalculator\";
+            pySkript.FileName = pythonPath;
+            pySkript.Arguments = string.Format("{0} {1}",myPythonApp, 1000);
             pySkript.UseShellExecute = false;
-
             pySkript.RedirectStandardOutput = true;
 
-
+            System.Console.WriteLine("Start python programm!");
 
             using (Process process = Process.Start(pySkript))
-
             {
-
                 using (StreamReader reader = process.StandardOutput)
-
                 {
                     string result = reader.ReadToEnd();
-                    Console.Write(result);
+                    System.Console.Write(result);
                 }
-
             }
+            System.Console.ReadKey();
         }
     }
 }

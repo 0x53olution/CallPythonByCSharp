@@ -1,0 +1,7 @@
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\obj\Debug\Ui.Console.csprojAssemblyReference.cache
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\obj\Debug\Ui.Console.csproj.CoreCompileInputs.cache
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\bin\Debug\Ui.Console.exe.config
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\bin\Debug\Ui.Console.exe
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\bin\Debug\Ui.Console.pdb
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\obj\Debug\Ui.Console.exe
+D:\GitRepos\CallPythonByCSharp\CallPython\Ui\Ui.Console\obj\Debug\Ui.Console.pdb
