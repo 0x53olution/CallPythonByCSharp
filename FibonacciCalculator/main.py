@@ -1,11 +1,13 @@
 import modules
 import sys
 
-n = sys.argv[1]
 
 def start(n):
     myFibNo = modules.FibonacciNumbers(n)
     result = myFibNo.calc()
     print(result)
     print("Finished")
-    
+
+
+if __name__ == "__main__":
+    start(int(sys.argv[1]))
